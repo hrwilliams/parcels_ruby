@@ -32,6 +32,6 @@ class Parcel
       speed_price = 15
     end
 
-  @cost_of_shipping = volume_price + weight_price + speed_price
+  cost_of_shipping = volume_price + weight_price + speed_price
   end
 end
